@@ -16,7 +16,7 @@ function Home() {
                 updateMoisture(x=>x=data.moisture)
                 updateVibration(x=> x= data.vibration)
                 updateRain(x=>x=data.rain)
-            }, 5000);
+            }, 1000);
         }
         getData();
     },[moisture,vibration,rain])
